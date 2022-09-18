@@ -1,9 +1,11 @@
 import Header from './components/Header';
+import Main from './components/Main';
 
-function App() {
+const App = () => {
   return (
-    <div className="p-6">
+    <div className="text-neutral-50 h-screen p-6">
       <Header />
+      <Main />
     </div>
   );
 }
